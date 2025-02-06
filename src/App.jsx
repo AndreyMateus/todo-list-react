@@ -11,7 +11,7 @@ import { useState } from 'react';
 // Personalized Hooks
 import useTodos from "./hooks/useTodos";
 
-function App() {
+export default function App() {
   const [todoInput, setTodoInput] = useState("");
   const [todos, setTodos] = useTodos();
 
@@ -61,5 +61,3 @@ function App() {
     </div >
   );
 }
-
-export default App;
