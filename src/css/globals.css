@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/background.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100dvh;
+}
+
+#root {
+    height: 95dvh;
+    width: 95%;
+    padding: 1rem;
+    border: 3px solid #000000;
+    margin: 1rem auto;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 1200px;
+}

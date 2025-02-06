@@ -1,0 +1,51 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: .5rem;
+}
+
+.imgLogo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    pointer-events: none;
+}
+
+.containerTodo {
+    border-radius: 5px;
+    height: 80%;
+    overflow-y: auto;
+}
+
+.btnAddTodo {
+    width: 50%;
+    font-size: 1.5rem;
+    padding: .3rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: all 300ms ease-in-out;
+    background-color: #0075fe;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    &:hover {
+        background-color: hsl(212, 100%, 40%);
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & input {
+        font-size: 1rem;
+    }
+}
